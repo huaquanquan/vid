@@ -1,0 +1,43 @@
+.widget-area .widget.widget-adss {
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0;
+}
+.widget-adss .asr {
+    display: block;
+    padding: 30px 15px;
+    text-align: center;
+    color: #fff !important;
+    background: #64ddbb;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.widget-adss .asr .btn {
+    margin-top: 20px;
+    font-weight: normal;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: top;
+    user-select: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    padding: 4px 30px;
+    line-height: inherit;
+}
+.btn-outline {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.widget-adss .asr h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.widget-adss .asr h5 {
+    margin: 15px 0 0;
+    font-size: 1px;
+    color: #fff;
+}

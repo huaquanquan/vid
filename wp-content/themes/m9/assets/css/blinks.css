@@ -1,0 +1,121 @@
+/*自助申请友情链接*/
+@media screen and (max-width: 750px) {
+    .container .row .card {
+        width: 100% !important
+    }
+    .main{
+        margin-top: -50px;
+    }
+    .yfx-page-bg img{
+        height: 80%;
+    }
+}
+
+.container .row .pricing-deco .deco-layer {
+    -webkit-transition: -webkit-transform 0.5s !important;
+    transition: transform 0.5s !important;
+}
+
+.container .row .pricing-deco:hover .deco-layer--1 {
+    -webkit-transform: translate3d(15px, 0, 0) !important;
+    transform: translate3d(15px, 0, 0) !important;
+}
+
+.container .row .pricing-deco:hover .deco-layer--2 {
+    -webkit-transform: translate3d(-15px, 0, 0) !important;
+    transform: translate3d(-15px, 0, 0) !important;
+}
+
+.srcdict-yqlj {
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+    display: flex !important;
+    background: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    border-radius: 6px !important;
+    box-shadow: 0 4px 12px 0 rgba(52, 73, 94, 0.1) !important;
+}
+
+.clearfix {
+    color: #fff !important;
+    background: linear-gradient(-125deg, #0295f9 0%, #2f49fd 100%) !important;
+    margin-top: 1rem !important;
+    padding: 1rem 1.5rem !important;
+    border: 1px solid transparent !important;
+    border-radius: .375rem !important;
+    max-width: 100% !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+}
+
+.mybtn {
+    border: none !important;
+    border-radius: 50px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 15px !important;
+    font-weight: 400;
+    letter-spacing: 1px !important;
+    line-height: 33px !important;
+    outline: none;
+    margin: 0px 6px !important;
+    padding: 0 18px !important;
+    text-align: center !important;
+    position: relative !important;
+}
+
+.mybtn-default {
+    background-color: #EFEFEF;
+}
+   main {
+            margin-top: -30px;
+            margin-bottom: 20px;
+        }
+        .yfx-page-bg {
+            height: 220px;
+        }
+        .yfx-page-bg img {
+            height: auto;
+            width: 100%;
+        }
+
+        .yfx-sitemit {
+            display: flex !important;
+            background: #fff !important;
+            border: 1px solid rgba(0, 0, 0, 0.05) !important;
+            border-radius: 6px !important;
+            box-shadow: 0 4px 12px 0 rgba(52, 73, 94, 0.1) !important;
+            padding: 20px;
+            margin: 0 0;
+        }
+
+        .yfx-content {
+            position: absolute;
+            max-width: 100%;
+            width: max-content;
+            color: white;
+            text-align: center;
+            margin: 60px 0;
+            /* left: 50%; */
+            /* top: 50%; */
+            /* transform: translate(-50%,-50%); */
+        }
+        .yfx-content h3{
+            color: white;
+        }
+        .sitemit-right {
+            color: #fff !important;
+            background: linear-gradient(-125deg, #0295f9 0%, #2f49fd 100%) !important;
+            margin-top: 1rem !important;
+            /* padding: 1rem 1.5rem !important; */
+            border: 1px solid transparent !important;
+            border-radius: .375rem !important;
+        }
+        .sitemit-left {
+            padding:  1rem 2rem 1rem 1rem;
+        }
+   
+/*自助申请友情链接*/

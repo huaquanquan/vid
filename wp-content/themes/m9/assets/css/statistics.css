@@ -1,0 +1,242 @@
+/*统计模块*/
+
+.van-statistics-widget {
+    background: #fff;
+    padding: 0 ;
+    margin-top: 30px;
+}
+.van-statistics-widget>.container {
+    max-width: none !important;
+    max-height: 355px;
+    padding: 0 !important;
+}
+.van-statistics-widget>.container>.module.parallax {
+    display: flex;
+    min-height: 385px;
+    position: relative;
+    text-align: center;
+}
+.van-statistics-widget>.container>.module.parallax .container {
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.van-statistics-widget>.container>.module.parallax:before {
+    content: '';
+    background-image: url(../images/statistics_pattern.png);
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: opacity 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: opacity 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+.van-statistics-widget>.container>.module.parallax img {
+    height: 113%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.van-statistics-widget>.container>.module.parallax .container {
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.van-statistics-widget>.container>.module.parallax .entry-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 30px;
+}
+
+.van-statistics-widget>.container>.module.parallax .button,
+.van-statistics-widget>.container>.module.parallax input[type="submit"],
+.van-statistics-widget>.container>.module.parallax button[type="submit"],
+.van-statistics-widget>.container>.module.parallax .navigation .nav-previous a,
+.van-statistics-widget>.container>.module.parallax .navigation .nav-next a {
+    margin: 30px 5px 0;
+    position: relative;
+    z-index: 60;
+    background-color: #34495e;
+}
+
+/*@media (max-width: 767px) {*/
+/*    .van-statistics-widget>.container>.module.parallax {*/
+/*        min-height: 250px;*/
+/*    }*/
+
+/*    .van-statistics-widget>.container>.module.parallax .entry-title {*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .van-statistics-widget>.container>.module.parallax .button,*/
+/*    .van-statistics-widget>.container>.module.parallax input[type="submit"],*/
+/*    .van-statistics-widget>.container>.module.parallax button[type="submit"],*/
+/*    .van-statistics-widget>.container>.module.parallax .navigation .nav-previous a,*/
+/*    .van-statistics-widget>.container>.module.parallax .navigation .nav-next a {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .van-statistics-widget>.container>.module.parallax .button+.button,*/
+/*    .van-statistics-widget>.container>.module.parallax input[type="submit"]+input[type="submit"],*/
+/*    .van-statistics-widget>.container>.module.parallax button[type="submit"]+button[type="submit"],*/
+/*    .van-statistics-widget>.container>.module.parallax .navigation .nav-previous a+.navigation .nav-previous a,*/
+/*    .van-statistics-widget>.container>.module.parallax .navigation .nav-next a+.navigation .nav-next a {*/
+/*        margin-top: 10px;*/
+/*    }*/
+/*}*/
+
+.mobanweb .data-items {
+    font-size: 0;
+    min-height: 85px;
+    margin: 30px 0;
+}
+
+.mobanweb li {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.mobanweb li i {
+    display: inline-block;
+    height: 25px;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.mobanweb li strong {
+    display: block;
+    line-height: 48px;
+    font-size: 36px;
+    color: #fff;
+    position: relative;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.mobanweb li span {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.mobanweb li strong::after {
+    content: '+';
+    font-size: 18px;
+    position: absolute;
+    line-height: 1;
+    padding-left: 3px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.mobanweb li strong.active::after {
+    opacity: 1;
+}
+
+.mobanweb li:hover i {
+    color: #ec2546;
+    transform: translate(0, -3px);
+    text-shadow: 3px 5px 10px #1716166b;
+}
+
+.mobanweb li:hover strong {
+
+    transform: translate(0, -3px);
+    text-shadow: 3px 5px 10px #1716166b;
+}
+
+.mobanweb li:hover span {
+
+    transform: translate(0, -3px);
+    text-shadow: 3px 5px 10px #1716166b;
+}
+
+.van-statistics-widget>.container>.module.parallax .container {
+    padding-top: 1px;
+    padding-bottom: 38px;
+}
+
+a.button.transparent.go_pay_vip_box {
+    color: #1e1e1e;
+    background: linear-gradient(50deg, #FFAB00 0, #fff800 100%) !important;
+    box-shadow: 4px 3px 16px 0px #ffc1072e;
+}
+
+.footer-widget .widget--newsletter button {
+    color: #0056ff;
+}
+
+.van-statistics-widget>.container>.module.parallax .button,
+.van-statistics-widget>.container>.module.parallax input[type="submit"],
+.van-statistics-widget>.container>.module.parallax button[type="submit"],
+.van-statistics-widget>.container>.module.parallax .navigation .nav-previous a,
+.navigation .nav-next a {
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    outline: none;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #34495e;
+}
+
+.van-statistics-widget>.container>.module.parallax .button,
+.van-statistics-widget>.container>.module.parallax input[type="submit"],
+.van-statistics-widget>.container>.module.parallax button[type="submit"],
+.van-statistics-widget>.container>.module.parallax .navigation .nav-previous a,
+.van-statistics-widget>.container>.module.parallax .navigation .nav-next a {
+    margin: 30px 5px 0;
+    position: relative;
+    z-index: 60;
+    background-color: #34495e;
+}
+
+.button,
+input[type="submit"] {
+    background: linear-gradient(-125deg, #0295f9 0%, #2f49fd 100%);
+    box-shadow: 0 3px 10px -1px #2c63ff !important;
+    color: #FFF;
+}
+
+.van-statistics-widget>.container>.module.parallax .button,
+.van-statistics-widget>.container>.module.parallax input[type="submit"],
+.van-statistics-widget>.container>.module.parallax button[type="submit"],
+.van-statistics-widget>.container>.module.parallax .navigation .nav-previous a,
+.van-statistics-widget>.container>.module.parallax .navigation .nav-next a {
+    width: 200px;
+}
+
+@media (max-width: 767px) {
+    .van-statistics-widget>.container>.module.parallax {
+        display: none;
+    }
+}
+
+
+/*统计模块结束*/

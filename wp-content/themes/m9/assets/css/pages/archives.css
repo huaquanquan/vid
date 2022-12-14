@@ -1,0 +1,40 @@
+.dark-open .article-content{
+    background: #293042;
+}
+.article-content {
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    word-wrap: break-word;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.archives .item {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.archives h3 {
+    float: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;
+}
+.archives-list li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+.archives-list time {
+    width: 40px;
+    display: inline-block;
+}
+.archives-list span {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+}

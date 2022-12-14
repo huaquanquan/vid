@@ -1,0 +1,587 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('//cdn1.tianli0.top/gh/huaquanquan/vid/PingFangLight1.ttf'); //你的资源目录
+font-weight: normal;
+    font-style: normal;
+}
+html,body {
+    font-family: myFont, sans-serif; }
+.dark-open .topnav{
+    background: #202634;
+}
+.dark-open .float-ul{
+    background-color: #202634;
+}
+.v-mt-4,.v-my-4{margin-top:3rem!important}
+.topnav {
+    display: block;
+    background: #ff5b5b;
+    position:relative;
+    z-index:1001;
+    margin-bottom:0;
+    box-sizing:content-box
+}
+.top-navbar {
+    min-height: 32px;
+    margin:0;
+    background-color: transparent;
+}
+.v-container {
+    margin-top: 0px!important;
+}
+@media (min-width: 960px){
+    .v-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    @media (min-width: 640px){
+        .v-container {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .v-container {
+            box-sizing: content-box;
+            max-width: 1440px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+}
+
+.v-container >:last-child {
+    margin-bottom: 0;
+}
+
+.navbar-left {
+    margin-left: 0;
+    float: left!important;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+.top-nav {
+    padding-left:0
+}
+.top-nav>li {
+    line-height:30px;
+    padding:0px 10px;
+    list-style:none
+}
+.top-nav>li {
+    float:left;
+    font-size:12px
+}
+.top-nav>li>a {
+    color:#fff;
+    padding:0;
+    position:relative;
+    line-height:32px;
+    height:32px;
+    font-size:12px
+}
+.navbar-right {
+    float:right!important;
+    margin-right:-15px;
+    padding-left:0;
+    margin-top:0;
+    margin:0;
+    list-style:none
+}
+/**
+充值活动弹窗
+ */
+.sets .life-enve {
+    top:30%;
+    position: fixed;
+    bottom: 59px;
+    right: 47px;
+    cursor: pointer;
+    z-index: 10000
+}
+
+.sets .life-enve .enve-img {
+    -webkit-animation: rotates .6s linear infinite;
+    animation: rotates .6s linear infinite
+}
+
+.sets .life-enve .enve-close {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10
+}
+
+
+.sets .life-enve {
+    right: 20px;
+    bottom: 20px
+}
+
+.sets .life-enve .enve-img {
+    width: 75px;
+    height: 75px
+}
+@-webkit-keyframes rotates {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    25% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px)
+    }
+
+    50% {
+        -webkit-transform: translateY(20px) scale(1.1,.9);
+        transform: translateY(20px) scale(1.1,.9)
+    }
+
+    75% {
+        ransform: translateY(10px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes rotates {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    25% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+
+    50% {
+        -webkit-transform: translateY(20px) scale(1.1,.9);
+        transform: translateY(20px) scale(1.1,.9);
+    }
+
+    75% {
+        ransform: translateY(10px)
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+/*全站侧边栏客服*/
+.float-radius{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+.float-text{color:#ff5c00} /* 字体颜色 */
+.yousc-dark a.float-text{color:#fff} /* 夜晚模式字体颜色 */
+.float-icon{color:#ff5c00} /* 图标颜色 */
+.float-hover{color:#ff5c00} /* 鼠标掠过字体颜色 */
+.flost-hover-bg{background-color:#ff5c00} /* 鼠标掠过背景颜色 */
+.float-border{border-color:#ececec !important} /* 边框颜色 */
+.float-box{
+    width:68px;	/* 宽度 修改之后要修改float-alert-box里的right值，right值计算方式：此数值减去（5*2+2） */
+    padding:5px;/* 按钮框边缘留出像素 */
+    font-size:14px;/* 按钮字体大小 */
+    position:fixed;right:0;top:85%;z-index:9997;
+    margin-top:-303px;	/* 自身高度的一半 */
+    _position: absolute;_top:expression(eval(document.documentElement.scrollTop+100));	/* 兼容低版本IE */
+}
+/* 会员开通开始 */
+.float-vip{text-align:center;line-height:1.2;}
+.float-vip a{display:block;width:100%;padding:10px 0;border:1px solid #ececec;background-color:#FFF;}
+.float-vip a:hover{border-color:#ffab23 !important;background-color:#ff0036;opacity:1;color:#FFF;}
+.float-vip .iconfont{font-size:32px;line-height:32px;}
+/* 会员开通结束 */
+.float-ul,.float-ul li{margin:0;padding:0;}
+.float-ul{margin-top:5px;text-align:center;line-height:1.2;list-style:none;background-color:#FFF;box-shadow: 0 2px 5px #555;}
+.float-ul .iconfont{font-size:20px;line-height:20px;}
+.float-ul li a{display:block;width:100%;padding:10px 0;line-height:18px;}
+.float-ul li a:hover{}
+.wx-qiandao a:hover{color: #fff}
+.float-ul li a.qq{-moz-border-top-left-radius:4px;-moz-border-top-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px;position: relative;}
+.float-ul li a.weixin{position: relative;}
+.float-ul li a.fankui{-moz-border-bottom-left-radius:4px;-moz-border-bottom-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;}
+.float-ul li a.fankui .iconfont{font-size:22px;line-height:22px;}
+.float-alert-box{width:180px;height:185px;background-color:#FFF;border:1px solid #ececec;position: absolute;right:60px;top:0;z-index:9998;display:none;}
+.dbsvip li a:hover {
+    background: linear-gradient(-125deg,#ffab23 0%, #ff0036 100%);
+    color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 10px rgba(255, 0, 12, 0.3);
+    color: white;
+    border-radius: 50%;}
+
+
+/* 此上为按钮弹出微信框的数值，top值可调节整体高度*/
+.float-qq-box{padding:20px 15px;}
+.float-weixin-box{padding:15px;}
+.float-weixin-box img{margin:0 auto;}
+.float-weixin-box p{font-weight:600;color:#ffab23;margin-bottom:5px;}
+.float-alert-box h6{font-size:20px;color:#ffab23;}
+.float-alert-box p{line-height:24px;}
+.float-ul li .float-qq-box{color:#666;}
+.float-ul li .float-weixin-box{color:#666;top:-61px;}
+.float-qq-btn{padding:10px;background-color:#ffab23;color:#FFF;}
+@media screen and (max-width:639px){.float-box{display:none;}}
+
+.dbsvip {
+    background: linear-gradient(-125deg,#ffab23 0%,#ff0036 100%);
+    color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 10px rgba(255,0,12,.3);
+    color: #fff;
+    border-radius: 50%;
+}
+.dbsvipd {
+    padding: 10px;
+    background: linear-gradient(-125deg,#ffab23 0%, #ff0036 100%);
+    color: #FFF;
+}
+.dbsvipa{
+    color: #FFF;
+}
+.zzhuti_qd_1 {
+    background: linear-gradient(-125deg,#ffab23 0%, #ff0036 100%);
+    box-shadow: 0 8px 10px rgba(32,160,255,.3);
+    color: #FFF;
+}
+.float-ul li a {
+    border-radius: 5px;
+}
+/*全站侧边栏客服*/
+.user-cover {
+    border-radius: 8px 8px 0 0;
+}
+.graphic, .page-cover {
+    text-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    --main-color: #fff;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(116, 116, 116, 0.08);
+    padding: 0;
+    padding-bottom: 70%;
+    border-radius: 8px;
+}
+.graphic>.fit-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.user-card .user-avatar, .user-card.user-info {
+    text-align: center;
+}
+.more-posts a>span, .relates-thumb li a>.post-info, a[href] {
+    transition: color .2s,background .3s,opacity .3s,box-shadow .3s,transform .3s;
+}
+.order-type-3 {
+    --this-bg: linear-gradient(135deg, #f59f54 10%, #ff6922 100%);
+}
+.avatar-img, .avatar-lg{
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    --this-size: 38px;
+    width: var(--this-size);
+    height: var(--this-size);
+}
+.avatar-lg {
+    --this-size: 80px;
+}
+/*img.lazyloaded {*/
+/*    -webkit-animation: var(--lazy-animation) .5s;*/
+/*    animation: var(--lazy-animation) .5s;*/
+/*}*/
+/*.lazyloaded {*/
+/*    --lazy-animation: lazy_scale;*/
+/*}*/
+/*.lazyloaded {*/
+/*    --lazy-animation: lazy_scale;*/
+/*}*/
+.avatar1, .radius-cover {
+    border-radius: 100px;
+    display: inline-block;
+}
+.avatar1, .fit-cover, .radius-cover {
+    width: 100%;
+    height: 100%;
+    transition: all .2s;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+/*.lazyloaded {*/
+/*    opacity: 1;*/
+/*    -webkit-filter: blur(0);*/
+/*    filter: blur(0);*/
+/*    transform: unset;*/
+/*    transition: .3s;*/
+/*    --lazy-animation: lazy_blur;*/
+/*}*/
+/*img {*/
+/*    max-width: 100%;*/
+/*    max-height: 100%;*/
+/*}*/
+/*img {*/
+/*    vertical-align: middle;*/
+/*}*/
+/*img {*/
+/*    border: 0;*/
+/*}*/
+/*.avatar-lg .avatar-badge {*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*}*/
+.btn-info.disabled, .btn-info:disabled {
+    background: linear-gradient(135deg, #de9c22 30%, #f9c851 100%)!important;
+    border-color: #f9c851!important;
+    -webkit-box-shadow: 0 0 0 #ff5b5b8a!important;
+    box-shadow: 0 0 0 #ffb3ac75!important;
+}
+.card{
+    box-shadow: 0 0 10px rgb(116 116 116 / 8%)!important;
+}
+
+/*全站底部波浪*/
+
+.waveHorizontals {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /*background-color: #fff;*/
+}
+.ripro-dark .waveHorizontals {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color:#181616 !important
+}
+#waveHorizontal1 {
+    -webkit-mask: url(/wp-content/themes/m9/assets/images/zhankr_001.svg);
+    mask: url(/wp-content/themes/m9/assets/images/zhankr_001.svg);
+    animation-delay: -2s;
+    animation-duration: 32s;
+}
+#waveHorizontal1 {
+    background: rgb(246,246,246);
+}
+#waveHorizontal2{
+    background: rgb(246,246,246);
+}
+#waveHorizontal3{
+    background: rgb(246,246,246);
+}
+.ripro-dark #waveHorizontal1{
+    background-color: #f1f1f1!important;
+}
+.ripro-dark  #waveHorizontal2{
+    background-color: #f1f1f1!important;
+}
+.ripro-dark  #waveHorizontal3{
+    background-color: #f1f1f1!important;
+}
+.waveHorizontal {
+    width: 200%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 350px 100%;
+    transform-origin: 0 100% 0;
+    animation-name: move;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes move{0%{transform:translate(-175px,0px) scale(1,1)}50%{transform:translate(-87px,0px) scale(1,0.5)}100%{transform:translate(0px,0px) scale(1,1)}}
+
+#waveHorizontal2 {
+    -webkit-mask: url(/wp-content/themes/m9/assets/images/zhankr_002.svg);
+    mask: url(/wp-content/themes/m9/assets/images/zhankr_002.svg);
+    animation-delay: -2s;
+    animation-duration: 25s;
+}
+#waveHorizontal3 {
+    -webkit-mask: url(/wp-content/themes/m9/assets/images/zhankr_003.svg);
+    mask: url(/wp-content/themes/m9/assets/images/zhankr_003.svg);
+    animation-delay: -1s;
+    animation-duration: 13s;
+}
+.owl .owl-dots {
+    bottom: -50px!important;
+}
+.owl .owl-dot {
+    background-color: #ff5b5b!important;
+}
+/*全站底部波浪*/
+.wx-division{
+    box-shadow: 0 2px 5px #555;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bolang1{
+    height: 20px;
+    background: #fff;
+}
+.parallax1 {
+    /* using color names */
+    fill:rgba(255,255,255,0.7);
+}
+.parallax2 {
+    /* using color names */
+    fill:rgba(255,255,255,0.5);
+}
+.parallax3 {
+    /* using color names */
+    fill:rgba(255,255,255,0.3);
+}
+.parallax4 {
+    /* using color names */
+    fill:#ffffff;
+}
+.bolang{
+    position: relative;
+    margin-top: -100px;
+    z-index: 1;
+}
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px; /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+}
+/* Animation */
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+}
+.rizhuti_v2-widget-dynamic,.rizhuti_v2-module-4-carousel{
+    background: #ffffff;
+}
+.carousel4,.alert-dark{
+    border: 1px solid #e9ecef;
+    /*box-shadow: 0 2px 5px #555;*/
+}
+.dark-open .rizhuti_v2-widget-dynamic,.dark-open  .rizhuti_v2-module-4-carousel{
+    background: #293042;
+}
+.dark-open .bolang1{
+    background: #293042;
+}
+.dark-open .no-scroll a,.dark-open .hf-widget-4 .hf-widget-content ul,.dark-open .hf-widget-4 .hf-widget-content em{
+    background: #293042!important;
+}
+.badge-dark-lighten {
+    color: #fff!important;
+}
+.dark-open .parallax4{
+    fill: #293042;
+}
+.dark-open .parallax1 {
+    /* using color names */
+    fill:rgba(41,48,66,0.7);
+}
+.dark-open .parallax2 {
+    /* using color names */
+    fill:rgba(41,48,66,0.5);
+}
+.dark-open .parallax3 {
+    /* using color names */
+    fill:rgba(41,48,66,0.3);
+}
+@media (max-width: 768px) {
+    .bolang {
+        margin-top: -40px;
+    }
+    .owl .owl-dots {
+        bottom: -20px!important;
+    }
+    .rizhuti_v2-widget-division,.rizhuti_v2-widget-dynamic {
+        padding-bottom: 10px;
+    }
+}
+.vipIcon {
+    position: absolute;
+    width: 15px;
+    z-index: 999;
+    bottom: -2px;
+    right: -2px;
+}
+.notify-content h3{
+    display: none!important;
+}
+.notify-content div{
+    margin-top: 10px;
+    padding: 30px!important;
+}
+.entry-media {
+    margin-bottom: 0;
+    position: relative;
+    background-size: 100% 100%;
+    padding: 37px;
+    padding-top: 41px;
+    padding-right: 37px;
+    padding-bottom: 37px;
+    padding-left: 37px;
+    border-radius: 7px 7px 0 0;
+    background-image: url(//cdn1.tianli0.top/gh/huaquanquan/vid/wp-content/themes/m9/assets/images/lixui_thumbnail_2.png);
+}
+.post-list .entry-media {
+    margin-bottom: 0;
+    position: relative;
+    background-size: 100% 100%;
+    padding: 37px;
+    padding-top: 41px;
+    padding-right: 37px;
+    padding-bottom: 37px;
+    padding-left: 37px;
+    border-radius: 7px 7px 0 0;
+    background-image: url(//cdn1.tianli0.top/gh/huaquanquan/vid/wp-content/themes/m9/assets/images/lixui_thumbnail_2.png);
+}

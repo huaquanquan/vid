@@ -1,0 +1,42 @@
+/*弹幕*/
+#van-barrage{
+    position:fixed;
+    z-index:999;
+    max-width:100%;
+    right: 0;
+    bottom: 0;
+}
+#van-barrage li {
+    display: flex;
+    opacity: 0;
+    border-radius: 20px;
+    color: #fff;
+    padding: 3px 10px 3px 3px;
+    clear: both;
+    font-size: 13px;
+    height: 26px;
+    float: right;
+    line-height: 26px;
+}
+#van-barrage li a:first-child {
+    margin-right: 4px;
+    width: 26px;
+}
+#van-barrage li a:last-child,#van-barrage li a:last-child font {
+    color:#fff;
+}
+#van-barrage li a:last-child n{
+    text-decoration: underline;
+    margin: 0 5px;
+}
+#van-barrage li img {
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    vertical-align: inherit;
+}
+@media screen and (max-width: 900px) {
+    #van-barrage{
+        display:none;
+    }
+}

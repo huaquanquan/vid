@@ -1,0 +1,11 @@
+.showpc{display:none;}
+@media (min-width:960px){
+.showpc{display:inline;}
+}
+.yfx_footer_vip {
+    position: fixed;
+    z-index: 9999;
+}
+.yfx_footer_vip img {
+    float: right;
+}

@@ -1,0 +1,114 @@
+/*游客提示登录*/
+.site-header {
+	transition: All 0.1s ease-in-out;
+	-webkit-transition: All 0.1s ease-in-out;
+	-moz-transition: All 0.1s ease-in-out;
+	-o-transition: All 0.1s ease-in-out;
+}
+
+.van_slogin_btn i.fa.fa-user {
+	color: #fff !important;
+}
+
+.dark-open .van_slogin {
+	background-color: #293042;
+}
+
+.van_slogin {
+	position: fixed;
+	z-index: 99;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	height: auto;
+	line-height: 45px;
+	font-family: microsoft yahei;
+	transition: All 0.5s ease-in-out;
+	-webkit-transition: All 0.5s ease-in-out;
+	-moz-transition: All 0.5s ease-in-out;
+	-o-transition: All 0.5s ease-in-out;
+	background: #212529bf;
+	border-top: solid 1px #212529;
+}
+
+.van_slogin .wp {
+	width: 100%;
+	align-content: center;
+}
+
+.van_slogin_info {
+	display: inline-block;
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: 2px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 300;
+}
+
+.van_slogin_info a {
+	color: #f5b344;
+	-webkit-animation: hue 6s infinite linear;
+}
+
+.van_slogin_btn {
+	display: inline-block;
+	line-height: 40px;
+	height: 40px;
+	margin: 0 8px;
+}
+
+.van_slogin_btn a {
+	display: block;
+	background: #ec2546;
+	color: #fff;
+	padding: 0 30px;
+	border-radius: 3px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.van_slogin_qq,
+.van_slogin_wechat,
+.van_slogin_weibo {
+	border-radius: 10%;
+	display: inline-block !important;
+	zoom: 1;
+	display: inline;
+	line-height: 40px;
+	height: 40px;
+	margin: 0 8px;
+	white-space: nowrap;
+}
+
+.van_slogin_qq a,
+.van_slogin_wechat a,
+.van_slogin_weibo a {
+	display: block;
+	color: #fff;
+	padding: 0 30px;
+	border-radius: 3px;
+	font-size: 16px;
+	border-radius: 5px;
+	-webkit-animation: hue 6s infinite linear;
+}
+
+.van_slogin_qq a {
+	background: #2581ff;
+}
+
+.van_slogin_wechat a {
+	background: #2bac19;
+}
+
+.van_slogin_weibo a {
+	background: #ff5b5b;
+}
+
+@media (max-width:768px) {
+	.van_slogin {
+		display: none;
+	}
+}

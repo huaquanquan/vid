@@ -1,0 +1,45 @@
+ .tkm-cooper {}
+    .tkm-cooper h3 {
+        font-size: 24px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .tkm-cooper h3 b {
+        display: inline-block;
+        position: relative;
+    }
+    .tkm-cooper h3 b:after {
+        content: "";
+        width: 60px;
+        height: 2px;
+        position: absolute;
+        background: linear-gradient(270deg,#61b1ff,#04f);
+        bottom: -10px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    .tkm-cooper .item {
+        text-align: center;
+        margin-bottom: 35px;
+        height: 100px;
+        background: #fff;
+    }
+    .tkm-cooper .item .item-logo {}
+    .tkm-cooper .item .item-logo img {
+        max-height: 100%;
+    }
+    .tkm-cooper .item:hover {
+        box-shadow: 0 5px 15px 0 rgba(62,130,255,.13);
+    }
+@media (max-width: 767px){
+    .tkm-cooper h3  {
+        font-size: 18px;
+    }
+    .tkm-cooper .item {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+}
+
+
+ 

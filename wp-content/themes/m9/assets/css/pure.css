@@ -1,0 +1,74 @@
+.post-cms-title-list .card {
+    border: 0;
+}
+.post-cms-title-list .card .card-header {
+    border-radius: 4px 4px 0 0!important;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    z-index: 1;
+    border: 0;
+}
+.post-cms-title-list .card .card-header:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(0 0 0 / 30%);
+    z-index: -1;
+}
+.post-cms-title-list .card-header a {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.post-cms-title-list .card-header .note {
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    z-index: 1;
+    width: 140px;
+    height: 20px;
+    background: #2c40a0;
+    color: #fff;
+    line-height: 20px;
+    -webkit-transform: rotate(
+45deg
+);
+    transform: rotate(
+45deg
+);
+    text-align: center;
+    font-size: 12px;
+}
+.post-cms-title-list .badge, .post-cms-title .badge {
+    font-weight: 500;
+}
+.post-cms-title-list .meta-views {
+    position: absolute;
+    right: 1.25rem;
+    font-size: 12px;
+    color: #bdbdbd;
+}
+.post-cms-title-list ul>li {
+    padding-right: 5em;
+    border: 1px solid rgb(255 255 255 / 0%);
+}
+.post-cms-title-list ul li+li a>.badge {
+    background-color: #6c757d;
+}
+.post-cms-title-list ul li+li:nth-child(3) a>.badge {
+    background-color: #28a745;
+}
+.post-cms-title-list ul li+li:nth-child(2) a>.badge {
+    background-color: #007bff;
+}
+.badge-danger {
+    color: #fff;
+    background-color: #ff5b5b;
+}
